@@ -344,6 +344,7 @@ export class VirtualFileSystem {
     this.root.children?.clear();
     this.files.set("/", this.root);
 
+    if (!data) data = {};
     // Sort paths to ensure parent directories are created first
     const paths = Object.keys(data).sort();
 

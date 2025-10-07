@@ -1,0 +1,27 @@
+   ▲ Next.js 15.5.4 (Turbopack)
+   - Local:        http://localhost:3000
+   - Network:      http://172.22.30.75:3000
+
+ ✓ Starting...
+ ✓ Compiled middleware in 142ms
+ ✓ Ready in 1016ms
+ ○ Compiling / ...
+ ✓ Compiled / in 6.7s
+ GET / 200 in 7577ms
+ ○ Compiling /api/chat ...
+ ✓ Compiled /api/chat in 561ms
+No ANTHROPIC_API_KEY found, using mock provider
+[Error: failed to pipe response] {
+  [cause]: [TypeError: Cannot read properties of undefined (reading 'length')]
+}
+ POST /api/chat 500 in 1102ms
+ GET / 200 in 171ms
+No ANTHROPIC_API_KEY found, using mock provider
+[Error: failed to pipe response] {
+  [cause]: [TypeError: Cannot read properties of undefined (reading 'length')]
+}
+ POST /api/chat 500 in 545ms
+   Reload env: .env
+ ✓ Compiled in 0ms
+ GET / 200 in 547ms
+[?25h
